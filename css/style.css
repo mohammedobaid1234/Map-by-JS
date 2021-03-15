@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .whole{
+     background-image: url(../imges/mapp.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+ }
+ .container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center; 
+     height: 100%;
+     width: 50%;
+     margin: auto;
+    position: relative;
+    
+ }
+ .container *{
+     margin: 10px;
+ 
+ }
+ .container h1,h2{
+     text-align: center;
+     color: #fff;
+ }
+ .container h1{
+     text-shadow: 2px 3px rgb(0 0 0 / 50%);
+ }
+ .container h2{
+    font-size: 28px;
+ }
+ .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(102, 73, 45, 0.7);
+ }
+ .container form{
+     width: 100%;
+ }
+ .container input{
+     width: 70%;
+     margin:10px 15%;
+     height: 30px;
+     background-color: #ccc;
+     border: 0;
+     border-radius: 3px;
+     font-size: 18px;
+     text-indent: 20px;
+ }
+ button{
+     display: block;
+     padding: 10px 30px;
+     border: 0;
+     border-radius: 3px;
+     font-size: 18px;
+     font-weight: bold;
+     color: #fff;
+     background-color: rgb(17, 245, 29);
+     margin:auto!important;
+ }
+ .res{
+     color: #fff;
+     font-weight: bold;
+     font-size: 25px;
+     letter-spacing: 1px;
+     margin: 20px;
+     border: 4px dashed rgb(223, 226, 11);
+     padding: 10px;
+    
+ }
+ .res span{
+     color: #000;
+     text-shadow: 1px 1px rgb(17, 245, 29);
+ }
